@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ESNext",
+      "outDir": "./dist",
+      "lib": ["ESNext"],
+      "strict": true,
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "include": ["vite.config.ts", "server.ts"],
+    "exclude": ["node_modules", "dist"]
+  }
+  

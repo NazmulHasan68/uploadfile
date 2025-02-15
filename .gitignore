@@ -1,0 +1,52 @@
+# Node modules
+/node_modules/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# npm package lock file
+package-lock.json
+
+# .env.local file
+.env.local
+
+# Build directories
+/dist
+/build
+
+# IDE settings (e.g., VSCode)
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Docker and other temporary files
+docker-compose.override.yml
+*.swp
+
+# Logs and debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage folder (used for testing)
+coverage/
+
+# Dependency directories for frontend (if applicable, like React or Next.js)
+/.next/
+/out/
+/dist/
+/public
+
+# Optional: If you're using TypeScript
+*.tsbuildinfo
+
+# Compiled JS files (if you're compiling TypeScript)
+*.js
